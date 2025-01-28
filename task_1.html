@@ -12,7 +12,6 @@
       crossorigin=""
     />
 
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -22,11 +21,10 @@
   <body>
     <div id="map_task_1"></div>
     <script>
-      //38.347985935241546, -0.48536939201024376
       let LatLng = [38.3479859, -0.4853693];
 
       const map = L.map("map_task_1").setView(LatLng, 11);
-      //38.36957665039975, -0.48918358899842396
+
       const marker = L.marker([38.369576, -0.489183]).addTo(map);
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
     </script>

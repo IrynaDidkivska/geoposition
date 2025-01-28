@@ -1,27 +1,43 @@
-# Завдання
+# Tourist Map and Hotel Page Projects
 
-## Завдання 1: Робота з Flexbox
+This repository contains two projects demonstrating basic usage of HTML, CSS, and JavaScript to integrate maps and create a tourist firm page.
 
-Створіть шапку сайту як на картинці, використовуючи flexbox
+## Projects Overview
 
-## Завдання 2: Список карток. Робота з Flexbox
+### 1. Map Integration with Leaflet
 
-Створіть контейнер, пропишіть йому ширину 1200 пікселів і розмістіть по центру. У контейнері
-створіть шість або більше блоків із різною кількістю тексту та посиланням, розмістивши блоки по
-три у ряд.
+This project showcases how to integrate a map into a webpage using the Leaflet library.
 
-## Завдання 3: Список посилань. Робота з псевдокласами
+**Features:**
 
-Створіть меню за допомогою флексбоксів. Пункти меню є посиланнями. Пропишіть усі необхідні
-стилі для максимальної схожості з прикладом. Фон меню “black”, фон активного пункту “DimGray”,
-колір тексту посилань “white”.
+- A map is displayed on the page using the Leaflet library and OpenStreetMap tiles.
+- A marker is added to highlight a specific location.
+- Customizable starting location and zoom level.
 
-## Завдання 4: Робота з flex-direction
+**Technologies Used:**
 
-Використовуючи готову розмітку прикладу, не змінюючи структуру коду html за допомогою
-властивості flex-direction, створіть блоки новин.
+- HTML5
+- Leaflet.js
+- OpenStreetMap
 
-## Завдання 5: Створення списку іконок
+### 2. Tourist Firm Page with Hotel Map Integration
 
-Використовуючи svg іконки з папки dz, реалізуйте блок соціальних мереж, за можливості без
-використання властивості padding. Колір фону: SlateGray.
+This project creates a webpage for a tourist firm with sections for top hotels and interactive maps.
+
+**Features:**
+
+- **Header:** Contains the navigation bar and company logo/name.
+
+- **Section with Hotels:** Features at least four hotel blocks.
+  - Each block contains:
+    - A photo of the hotel.
+    - Description of the hotel, including name, amenities, and price range.
+    - A "View on Map" button that displays a map showing the hotel's location.
+- **Interactive Maps:** Clicking the "View on Map" button opens a map centered on the hotel's location.
+
+**Technologies Used:**
+
+- HTML5 for structure.
+- CSS3 for styling.
+- JavaScript for interactive map functionality.
+- Leaflet.js for map integration.
