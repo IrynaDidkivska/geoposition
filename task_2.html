@@ -127,6 +127,9 @@
     <script>
       let map;
       function openMap(lat, lng) {
+        if (map !== undefined) {
+          map.remove();
+        }
         const mapModal = document.getElementById("map-modal");
         mapModal.style.display = "flex";
         map = L.map("map").setView([lat, lng], 15);
